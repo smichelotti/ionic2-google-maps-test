@@ -8,7 +8,7 @@ The following steps were taken to create the app.
 First, start new Ionic project:
 
 ```shell
-ionic start ionic2-google-maps-test
+ionic start ionic2-google-maps-test blank --ts --v2
 ```
 
 Add Angular 2 Google Maps (per AGM's [Getting Started Guide](https://angular-maps.com/docs/getting-started.html)):
