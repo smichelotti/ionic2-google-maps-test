@@ -21,7 +21,7 @@ Again, per AGM's [Getting Startd Guide](https://angular-maps.com/docs/getting-st
 this `AgmCoreModule` to the imports of app.module.ts. See line #5 and #14
 from [app.module.ts](https://github.com/smichelotti/ionic2-google-maps-test/blob/master/src/app/app.module.ts).
 
-Upon running `ionic serve`, the following exception is shown in the console:
+At first, upon running `ionic serve`, the following exception is shown in the console:
 
 ```shell
 [14:36:28]  bundle dev started ...
@@ -42,3 +42,5 @@ Upon running `ionic serve`, the following exception is shown in the console:
 
 The app does not show in browser because bundle never get properly built. 
 Note: these steps all work fine when using angular-cli (outside of Ionic).
+
+The issue has been fixed with [this commit](https://github.com/smichelotti/ionic2-google-maps-test/commit/573dc4b4db348617a774c7143a9ac5821f518645). Blog post to follow.
