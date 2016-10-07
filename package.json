@@ -32,5 +32,8 @@
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard"
   ],
+  "config": {
+    "ionic_rollup": "./scripts/rollup.config.js"
+  },
   "cordovaPlatforms": []
 }

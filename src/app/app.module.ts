@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
+import { HomePage, MapPage } from '../pages/pages';
+
 import { AgmCoreModule } from 'angular2-google-maps/core';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage, 
+    MapPage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -16,7 +18,8 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    MapPage
   ],
   providers: []
 })
